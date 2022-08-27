@@ -1,0 +1,14 @@
+{
+    "extends": [
+        "config:base",
+        ":preserveSemverRanges"
+    ],
+    "labels": [
+        "dependencies"
+    ],
+    "schedule": "at any time",
+    "lockFileMaintenance": {
+        "enabled": true,
+        "schedule": "at any time"
+    }
+}
